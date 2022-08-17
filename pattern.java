@@ -1,7 +1,10 @@
-
+import java.util.Scanner;
+import java.util.Scanner;
 public class pattern{
     public static void main(String[] args) {
-        int n=4;
+        Scanner obj=new Scanner(System.in);
+        int n=obj.nextInt();
+        
         // upper half
         for(int i=1;i<=n;i++){
             // inner loop for 1st part stars
